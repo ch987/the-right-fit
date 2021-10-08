@@ -1,5 +1,7 @@
 const axios = require("axios");
-const settings = require("./settings.js");
+//const settings = require("./settings.js");
+var settings = {};
+settings.url = 'http://13.59.54.29';
 
 module.exports = {
   list: (params, callback) => {

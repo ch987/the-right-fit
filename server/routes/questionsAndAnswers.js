@@ -34,7 +34,6 @@ module.exports = (app) => {
         console.error("Error: ", err);
         res.status(500).end();
       } else {
-        console.log("test")
         res.status(201).send(responseData.data);
       }
     });

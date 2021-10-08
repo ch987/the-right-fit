@@ -4,7 +4,7 @@ import moment from "moment";
 const Answer = (props) => {
   return (
     <li className='IndAnswer'> {props.answer.body} <br/>{props.answer.photos.map((photo, index) =>
-    <img key={index} className='AnswerImg' src={(photo)}/>
+    <img key={index} className='AnswerImg' src={(photo.url)}/> //delete.url if not needed easy fix
     )}
     <br/>
     <br/>

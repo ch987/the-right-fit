@@ -16,7 +16,7 @@ module.exports = {
     axios
       .post(`${settings.url}/cart`, data, settings.head)
       .then((res) => {
-        console.log("LINE19", res);
+        //console.log("LINE19", res);
         callback(null, res);
       })
       .catch((err) => {

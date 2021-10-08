@@ -1,5 +1,8 @@
 const axios = require("axios");
-const settings = require("./settings.js");
+//const settings = require("./settings.js");
+var settings = {};
+settings.url = 'http://3.82.161.228';
+
 
 module.exports = {
   questions: (product_id, callback) => {
@@ -39,7 +42,6 @@ module.exports = {
         callback(null, res);
       })
       .catch((err) => {
-        //console.log(test)
         callback(err);
       });
   },

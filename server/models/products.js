@@ -1,5 +1,7 @@
 const axios = require("axios");
-const settings = require("./settings.js");
+//const settings = require("./settings.js");
+var settings = {};
+settings.url = 'http://13.59.170.39/api';
 
 const findProductStyles = async (id = 1) => {
   const res = await axios.get(
