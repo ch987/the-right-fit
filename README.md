@@ -1,16 +1,10 @@
-# Charon-FE-Capstone
+# The Right Fit
 
-## Overview
-This repo consists of a client side application that resembles a basic clothing e-commerce website. The project was developed by four students, focusing mainly on the project overview, the related products, outfits for the user, a ratings and reviews section, and questions and answer section 
+This repository consists of a retail application that provides shopping features and product information to users.
+This information is split up into four main sections, or widgets, outlined below. These widgets provide all the main features that users will be looking for on a reatil site.
 
-To check out this project:
-
-Start by cloning the repo into your computer in the terminal:
-
-`$git clone https://github.com/RFE5-FEC/Charon-FE-Capstone.git`
-
-## Features
-The four main features of this repo are as follows:
+## Widgets
+The four main widgets of this project are:
 * Product Overview · Jonah Cost
 * Related Items and Comparisons · David Du
 * Questions and Answers · James Tsui
@@ -22,7 +16,11 @@ The four main features of this repo are as follows:
 
 ## Usage
 
-First install dependencies used in the project:
+Start by cloning the repo into your computer in the terminal:
+
+`$git clone https://github.com/RFE5-FEC/Charon-FE-Capstone.git`
+
+Install dependencies used in the project:
 
 `npm install or npm i`
 
@@ -34,8 +32,13 @@ Run server using:
 
 `npm run start`
 
-To open the page in your browser go to:
+This will by default run on localhost port 3000.
 
-localhost:3000
+## Authors
+
+Chris Chung
+Jonah Cost
+James Tsui
+David Du
 
 ## Links
