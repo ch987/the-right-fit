@@ -36,9 +36,9 @@ This will by default run on localhost port 3000.
 
 ## Authors
 
-Chris Chung <br />
-Jonah Cost <br />
-James Tsui <br />
-David Du <br />
+[Chris Chung](https://github.com/ch987 "Chris Chung")
+[Jonah Cost](https://github.com/costjonah "Jonah Cost")
+[James Tsui](https://github.com/jamestsui3 "James Tsui")
+[David Du](https://github.com/EndlessDavidDu "David Du")
 
 ## Links
